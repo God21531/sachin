@@ -188,7 +188,7 @@ img {
   animation-duration: 40s;
   width: 200px;
   height: 300px;
-  object-fit: contain;
+  object-fit: cover;
 }
 @-webkit-keyframes zoomin {
   from {
@@ -267,3 +267,8 @@ img {
   }
 }
 /* /6 */
+
+@media screen and (orientation: portrait) {
+}
+@media screen and (orientation: landscape) {
+}
